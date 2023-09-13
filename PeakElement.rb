@@ -22,4 +22,4 @@ def findPeak(arr)
 end
 
 arr = [1, 3, 70, 30, 80, 50]
-puts "Index of a peak point is #{findPeak(arr)}"
+puts "Peak element is: #{findPeak(arr)}"
