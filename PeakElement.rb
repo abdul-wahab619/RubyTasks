@@ -4,7 +4,7 @@ def findPeak(arr)
 
     # Check Peak first_ele and last_ele
     if n == 1
-        return [0]
+        return arr[0]
     end
     if arr[0] >= arr[1]
         return arr[0]
